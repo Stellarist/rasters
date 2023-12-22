@@ -1,0 +1,10 @@
+assets/
+backup/
+bin/
+build/
+dependencies/
+lib/
+target/
+.cache/
+.vscode/
+.idea/
