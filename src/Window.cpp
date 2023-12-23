@@ -12,7 +12,7 @@ Window::Window()
 {
     // initialize glfw
     glfwInit();
-    window=glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "Canvas", nullptr, nullptr);
+    window=glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "Rasters", nullptr, nullptr);
     if(window==nullptr){
         std::cerr << "Failed to create GLFW window" << std::endl;
         glfwTerminate();
